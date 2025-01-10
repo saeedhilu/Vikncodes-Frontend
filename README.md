@@ -11,6 +11,7 @@ This is the frontend repository for the Vikncodes application. It is responsible
 - **API Integration**: Integrates with the backend RESTful API for data management and secure communication.
 - **Error Handling**: Displays user-friendly error messages in case of failed API requests.
 - **TypeScript**: Strongly typed JavaScript with TypeScript, enhancing code quality and maintainability.
+- **Data Fetching with React Query (useQuery)**: Uses `useQuery` from **React Query** for fetching, caching, and synchronizing data from the backend APIs.
 
 ## Tech Stack
 
@@ -22,12 +23,14 @@ This is the frontend repository for the Vikncodes application. It is responsible
 - **React Hook Form**: For form handling and validation.
 - **Zod**: For schema validation.
 - **TypeScript**: A superset of JavaScript for type safety and enhanced developer experience.
+- **React Query**: A library for data fetching, caching, and synchronization using hooks like `useQuery`.
 
 ## Requirements
 
 - Node.js >= 18.x
 - npm or yarn (for managing dependencies)
 - TypeScript
+- React Query
 - Other dependencies listed in `package.json`
 
 ## Setup Instructions
